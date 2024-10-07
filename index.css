@@ -1,0 +1,49 @@
+.background{
+	background-image: url("https://img.freepik.com/free-vector/happy-valentines-day-card-design-with-hearts-background_1017-17039.jpg?w=740&t=st=1706896569~exp=1706897169~hmac=bae90d204527fb07e7ce4d4d96ccd5b2f6eb9c4b889b7fa58c48fe164e41c6ea");
+	background-repeat: no-repeat;
+	background-size: 100% 115%;
+}
+
+.quotation{
+	font-size: 25px;
+	color:white;
+	font-family: "sofia";
+	text-align: center;
+	margin-left: 35px;
+	margin-top:45px;
+	text-shadow: 0 0 9px white;
+}
+
+.main-heading{
+	font-size:50px;
+	color:white;
+	font-family: "Sofia";
+	margin-left: 300px;
+	text-shadow: 0 0 20px red;
+}
+
+.grid-container{
+	display: grid;
+	grid-template-columns: auto auto auto auto auto auto;
+	width:55%;
+	margin-left:200px;
+	gap:7px;
+}
+
+.grid-side-image{
+	height:130px;
+	width:190px;
+	border-radius: 15px;
+}
+.grid-bottom-image{
+	height:140px;
+	width:240px;
+	border-radius: 15px;
+	
+}
+.grid-main-image{
+	height:280px;
+	width:350px;
+	border:4px inset;
+	border-radius: 20px;
+}
